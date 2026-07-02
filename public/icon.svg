@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">午夜逃殺場</title>
+  <desc id="desc">深色背景上的午夜逃殺場圖示</desc>
+  <rect width="512" height="512" rx="96" fill="#10151f"/>
+  <path d="M104 330h304l-52 58H156l-52-58Z" fill="#66f2b8"/>
+  <path d="M150 144h212v174H150V144Z" fill="#182233" stroke="#edf5ff" stroke-width="18"/>
+  <path d="M188 190h136v36H188v-36Zm0 70h92v36h-92v-36Z" fill="#ff6b6b"/>
+  <circle cx="364" cy="276" r="24" fill="#66f2b8"/>
+</svg>
