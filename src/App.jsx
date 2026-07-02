@@ -15,15 +15,24 @@ export default function App() {
 
   return (
     <main className="app-shell">
-      <header className="app-header">
-        <p className="eyebrow">mobile local test</p>
+      <div className="portrait-gate" role="status" aria-live="polite">
         <h1>午夜逃殺場</h1>
-        <p className="subtitle">單人 Phaser 測試場景，尚未連接 Firebase 或多人房間。</p>
-      </header>
+        <p>請橫拿手機遊玩</p>
+      </div>
 
-      <section className="game-panel" aria-label="Phaser 單人測試場景">
-        <div id="game-root" className="game-root" />
-      </section>
+      <div className="play-area">
+        <header className="app-header">
+          <div>
+            <p className="eyebrow">mobile local test</p>
+            <h1>午夜逃殺場</h1>
+          </div>
+          <p className="subtitle">單人 Phaser 測試場景，尚未連接 Firebase 或多人房間。</p>
+        </header>
+
+        <section className="game-panel" aria-label="Phaser 單人測試場景">
+          <div id="game-root" className="game-root" />
+        </section>
+      </div>
     </main>
   );
 }

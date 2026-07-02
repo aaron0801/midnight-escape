@@ -17,6 +17,8 @@ export function createGame(parent) {
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH,
+      expandParent: true,
+      autoRound: true,
     },
     scene: [MidnightTestScene],
   });

@@ -1,0 +1,19 @@
+{
+  "name": "午夜逃殺場",
+  "short_name": "午夜逃殺場",
+  "description": "手機橫式優先的 Phaser 測試版遊戲。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#0b0f15",
+  "theme_color": "#10151f",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
